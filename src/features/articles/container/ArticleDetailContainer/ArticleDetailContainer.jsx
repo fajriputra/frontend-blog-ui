@@ -62,7 +62,7 @@ const ArticleDetailContainer = () => {
 			</BaseContainer>
 
 			<FloatButton
-				href={`https://api.whatsapp.com/send?text=Cek artikel terkait game yang kamu suka yuk! https://www.rata.id/${pathname}`}
+				href={`https://api.whatsapp.com/send?text=Cek artikel terkait game yang kamu suka yuk! https://prismatic-faloodeh-185ca9.netlify.app/${pathname}`}
 				target='_blank'
 				icon={
 					<img
