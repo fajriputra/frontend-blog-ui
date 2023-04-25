@@ -1,0 +1,37 @@
+.category {
+	&__container {
+		padding: 0 16px;
+
+		@media (min-width: 992px) {
+			padding: 0;
+		}
+	}
+
+	&__headline {
+		background-color: #dedede;
+
+		.copywriting {
+			padding: 40px 0;
+
+			&__heading {
+				font-size: 22px;
+				margin-bottom: 15px !important;
+				color: #111;
+
+				@media (min-width: 992px) {
+					font-size: 26px;
+					margin-bottom: 5px !important;
+				}
+			}
+
+			&__description {
+				font-size: 14px;
+				color: #111;
+
+				@media (min-width: 992px) {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}

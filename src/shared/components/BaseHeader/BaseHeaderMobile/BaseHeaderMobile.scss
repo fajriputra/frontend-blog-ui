@@ -1,0 +1,15 @@
+.base__header__mobile {
+	background-color: #fff;
+	height: 100%;
+	left: 0;
+	overflow-x: hidden;
+	position: fixed;
+	top: 0;
+	transition: 0.3s;
+	width: 100%;
+	z-index: 6;
+
+	&__close {
+		width: 0;
+	}
+}
